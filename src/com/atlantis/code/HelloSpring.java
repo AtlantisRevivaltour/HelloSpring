@@ -6,8 +6,8 @@ package com.atlantis.code;
 public class HelloSpring {
     private String message;
 
-    public String getMessage() {
-        return message;
+    public void getMessage() {
+        System.out.println(message);
     }
 
     public void setMessage(String message) {
